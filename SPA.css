@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+h6{
+  color: white;
+}
+
+h4{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+body{
+    overflow: hidden !important;
+    font-family: "Poppins", sans-serif;
+  }
+
+  html{
+    overflow-x: hidden !important;
+  }
+
+  .navbar-icon{
+    display: none;
+  }
+
+  .navbar-toggler-icon{
+    font-size: x-large;
+    color: aqua;
+  }
+
+  .nav-list{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+
+
+  .ul-list{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .ul-list a {
+    color: white;
+  }
+  .spa_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  .home-section{
+    
+    color: white;
+   
+  }
+
+  .home-img img{
+    width: 100%;
+  }
+
+  .home-deatils{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    /* padding-left: 140px; */
+  }
+
+  .home-deatils h1{
+    font-weight: 500;
+  }
+
+  .service_section{
+    color: white;
+    padding: 20px;
+    padding-block: 70px;
+  }
+
+  .fa-chart-line{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 30px;
+    
+  }
+
+  .cards{
+    padding: 15px;
+    border-radius: 10px;
+    margin-inline: 15px;
+    text-align: center;
+  }
+
+  .cards_all{
+    display: flex;
+    justify-content: space-evenly;
+  }
+.service_top{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+.cards h5{
+    padding-top: 15px;
+}
+
+.blog_heading{
+  text-align: center;
+}
+
+section{
+  padding: 40px 0;
+}
+
+.info_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product_left{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product_img{
+  padding-left: 10px;
+}
+
+.product_img img{
+  width: 100%;
+}
+
+.box_detais{
+  width: auto;
+  border-radius: 10px;
+}
+
+.w-25{
+  width: 20% !important;
+}
+
+img{
+  width:100%;
+}
+
+
+.ham_menu{
+  display: none;
+}
